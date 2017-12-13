@@ -16,8 +16,8 @@ command.
 Set up the server (the machine which programmer is connected to):
 
 ```bash
-$ ./server.py localhost:8000
-Listening on localhost:8000
+$ ./server.py 0.0.0.0:8000
+Listening on 0.0.0.0:8000
 ```
 
 and on you development machine, program your device this way:
