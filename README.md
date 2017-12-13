@@ -20,7 +20,7 @@ $ ./server.py localhost:8000
 Listening on localhost:8000
 ```
 
-and on you development machine, program you micro controller:
+and on you development machine, program your device this way:
 
 ```bash
 $ ./avrdude.py ras.pi.ip.addr:8000 [AVRDUDE OPTIONS RIGHT HERE (e.g. -?)]
